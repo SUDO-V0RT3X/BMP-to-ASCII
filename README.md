@@ -17,7 +17,7 @@ Usage:
 2. Resize the image to be < 1024 pixels wide (See line 264 of image.cpp for further information about image size).
 3. Use an online tool, like [https://convertio.co/] or any equivalent, to convert the image to a .bmp format (if it not already in a .bmp format). You will notice that the image's file size will increase by a factor of approximately 30 (depending on the file) after converting to a .bmp format. This is because .bmp file format is not compressed, like .jpeg. Avoid using the Photos app on Windows to convert the image to a .bmp format. In my experience, it does not work.
 4. Add the .bmp image in the BMP-to-ASCII folder. 
-5. Uncomment line 10 in main.cpp if you want to run all the tests.
+5. Uncomment line 10 in main.cpp if you want to run all the tests (the folder "example images" contains 2 example images viz. naruto.bmp and mufasa.bmp as well as the output of the tests).
 6. Run ```./main``` in Mac or Linux/WSL, or modify the makefile to compile for Windows.
 7. View the .txt that is outputted using Notepad or any other equivalent. Be sure to zoom out to see the "image" and turn of the spelling checker.
     
