@@ -27,7 +27,7 @@ int main()
 
     cout << "Converting to greyscale . . . \n";
     image.convertToGreyscale();
-    string fileNameStrGrey = fileNameStr + " Grey.bmp";
+    string fileNameStrGrey = fileNameStr + " grey.bmp";
     const char *greyName = fileNameStrGrey.data();
     image.exportImage(greyName);
     cout << "Converting complete . . .\n\n";
