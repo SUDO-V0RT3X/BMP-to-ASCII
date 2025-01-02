@@ -2,6 +2,7 @@ make:
 	g++ *.cpp -std=c++11 -o main
 	
 run:
+	g++ *.cpp -std=c++11 -o main
 	./main
 
 clean:

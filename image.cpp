@@ -261,8 +261,13 @@ string Image::displayASCII(vector<char> ascii)
     {
         for (int x = 0; x < width; x++)
         {
-            // The number of repetitions of the pixel can be modified to make the image appear "wider" in the text file.
-            // However, be careful not to repeat the pixel too much with higher resolution images, as the maximum number of characters that can be displayed in Notepad is 1024.
+            /* The number of repetitions of the pixel can be modified to make the image appear "wider" in the text file.
+             
+             However, be careful not to repeat the pixel too much with higher resolution images, as the maximum number of characters that can be displayed in Notepad is 1024.
+
+            For example, with an image 500  pixels wide, repeating the pixels once is fine, but twice is problematic. For an image 200 pixels wide, upto 4 repetitions are possible
+
+            */
             result += ascii[y * width + x];
             result += ascii[y * width + x];
         }

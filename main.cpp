@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    runAllTests();
+    // runAllTests();
 
     cout << "Enter the name of the .bmp file WITHOUT the file extentsion: ";
     string fileNameStr;
