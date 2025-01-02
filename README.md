@@ -25,7 +25,7 @@ Usage:
 ## Screenshots
 
 Original .bmp image:
-![Before](https://raw.githubusercontent.com/SUDO-V0RT3X/BMP-to-ASCII/refs/heads/main/colour.bmp)
+![Before](https://raw.githubusercontent.com/SUDO-V0RT3X/BMP-to-ASCII/refs/heads/main/example.bmp)
 
 After converting to ASCII (whole image is not shown): 
 ![After](https://raw.githubusercontent.com/SUDO-V0RT3X/BMP-to-ASCII/refs/heads/main/screenshot.png)
